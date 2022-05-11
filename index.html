@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>start html</title>
+  <link
+    href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900%7CRoboto+Slab:700,300&amp;subset=latin,cyrillic'
+    rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" href="css/my-reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <a class="heade__logo-link" href="#">
+          <img class="header__logo" src="images/l1.png" width="195px" height="38px" alt="логотип WebStore">
+        </a>
+
+        <div class="header__actions">
+          <a class="header__tel tel-link" href="tel:+74959260126">+7 (495) 926-01-26</a>
+
+          <button class="header__btn btn" type="button">Заказать сайт</button>
+        </div>
+      </div>
+
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link tabs-trigger" href="#about">Компания</a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link tabs-trigger" href="#services">Услуги</a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link tabs-trigger" href="#">Работы</a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link tabs-trigger" href="#contacts">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__main">
+        <div class="header__content">
+          <h1 class="header__title">
+            <strong>Корпоративный сайт</strong><br>
+            от <br>
+            <span class="header__title--accent">50 000</span><br>
+            рублей
+          </h1>
+
+          <button class="header__btn header__btn--accent btn" type="button">Заказать сайт</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="header-sticky element-animation">
+    <div class="container">
+      <div class="header-sticky__inner">
+        <a class="header-sticky__logo-link" href="#">
+          <img class="header-sticky__logo" src="images/l1-mini.svg" width="49px" height="30px" alt="логотип WebStore">
+        </a>
+
+        <nav class="header-sticky__nav">
+          <ul class="header-sticky__list">
+            <li class="header-sticky__item">
+              <a class="header-sticky__link tabs-trigger" href="#about">Компания</a>
+            </li>
+
+            <li class="header-sticky__item">
+              <a class="header-sticky__link tabs-trigger" href="#services">Услуги</a>
+            </li>
+
+            <li class="header-sticky__item">
+              <a class="header-sticky__link tabs-trigger" href="#">Работы</a>
+            </li>
+
+            <li class="header-sticky__item">
+              <a class="header-sticky__link tabs-trigger" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-sticky__actions">
+          <a class="header-sticky__tel tel-link" href="tel:+74959260126">+7 (495) 926-01-26</a>
+
+          <button class="header-sticky__btn btn" type="button">Заказать сайт</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="main">
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__wrapper">
+          <div class="about__content">
+            <h2 class="about__title title">О компании</h2>
+
+            <p class="about__text">
+              <span class="about__left-name-part">Web</span>
+              <span class="about__right-name-part">Store</span>
+              — многопрофильная студия дизайна, основанная в 2006 году. За эти годы мы успели поработать
+              в разных направлениях, реализовали множество проектов, достигли профессиональных высот и собрали
+              внушительное портфолио.
+              Сегодня мы сосредоточились на том, что нам по-настоящему нравится: дизайн и разработка веб-сайтов
+              и мобильных приложений.
+            </p>
+
+            <p class="about__text">
+              Мы гордимся своей замечательной командой по-настоящему талантливых людей: дизайнеров, программистов,
+              менеджеров, тестировщиков, проектировщиков. Все сотрудники
+              <span class="about__left-name-part">Web</span>
+              <span class="about__right-name-part">Store</span>
+              работают в штате, поэтому мы гарантируем, что весь
+              комплекс работ по разработке, созданию, поддержке и продвижению сайтов выполняется строго профессионально
+              и качественно.
+            </p>
+
+            <p class="about__text">
+              Мы уверены, что хорошая, чёткая и последовательная разработка имеет большое значение для эффективного
+              маркетинга. Поэтому предлагаем высококачественный дизайн, удобство и функциональность, адаптированные под
+              каждого клиента в зависимости от его потребностей
+              и поставленных бизнес-задач.
+            </p>
+          </div>
+
+          <div class="about__images">
+            <img class="about__img" src="images/camera.png" alt="камера Leica">
+
+            <img class="about__img" src="images/notebook.png" alt="записная книжка">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts tab-content" id="contacts">
+      <address class="contacts__wrapper">
+        <div class="contacts__left-box">
+          <div class="contacts__point">
+            <span class="contacts__point-name">Адрес:</span>
+            <a class="contacts__link" href="https://yandex.ru/maps/-/CCUF58RfPA" target="_blank">г. Москва, <br>ул.
+              Дербеневская, дом 1, строение 6, подъезд 4, этаж</a>
+          </div>
+
+          <div class="contacts__point">
+            <span class="contacts__point-name">Телефоны:</span>
+            <div class="contacts__point-inner">
+              <a class="contacts__link" href="tel:+74959260126">+7 (495) 926-01-26</a>
+              <a class="contacts__link" href="tel:+74956460094">+7 (495) 646-00-94</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contacts__right-box">
+          <div class="contacts__point">
+            <span class="contacts__point-name">E-mail:</span>
+            <a class="contacts__link contacts__link--accent" href="mailto:info@nologostudio.ru">info@nologostudio.ru</a>
+          </div>
+
+          <div class="contacts__point">
+            <span class="contacts__point-name">Skype:</span>
+            <a class="contacts__link" href="https://join.skype.com/invite/i0sIYR1PAZkD">alex-trainer</a>
+          </div>
+
+          <div class="contacts__point">
+            <a class="contacts__link contacts__link--copy" href="">© 1997-2014 WebStore</a>
+          </div>
+        </div>
+      </address>
+    </section>
+
+    <section class="services tab-content" id="services">
+      <div class="container">
+        <h2 class="services__title title">Услуги</h2>
+        <div class="services__inner">
+          <div class="services__item">
+            <h3 class="services__name services__name--sites">
+              Разработка сайтов
+            </h3>
+
+            <p class="services__text">
+              Мы разрабатываем сайты любой сложности и разновидности, но всегда придерживаемся единого правила: ресурс
+              должен работать на своего хозяина, отличать его от других и запоминаться. </p>
+          </div>
+
+          <div class="services__item">
+            <h3 class="services__name services__name--branding">
+              Брендинг
+            </h3>
+
+            <p class="services__text">
+              Мы занимаемся разработкой брендинга с нуля до получения результата, который будет не просто
+              запоминающимся, но и побуждающим на приобретение товаров или получение услуг вашей компании.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <h3 class="services__name services__name--mobile">
+              Мобильные приложения
+            </h3>
+
+            <p class="services__text">
+              Мы разрабатываем любой тип приложений, необходимых для вашего бизнеса: от развлекательных до
+              бизнес-приложений. Сервис для поиска работы, информационный канал или интернет-магазин – предлагайте
+              свои варианты!
+            </p>
+          </div>
+
+          <div class="services__item">
+            <h3 class="services__name services__name--ad">
+              Интернет реклама
+            </h3>
+
+            <p class="services__text">
+              Делать деньги без рекламы может только монетный двор (Томас Маколей). Если своего станка для печати
+              купюр у вас нет, то привести вам покупателей с деньгами поможет интернет-реклама. Тем более ее
+              эффективность уже доказана сотнями успешных онлайн рекламных кампаний, которые мы готовы воплотить и для
+              вас.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
